@@ -1,0 +1,192 @@
+@font-face{
+    font-family: 'Simplicity';
+    src: url(./fonts/simplicity-webfont.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Modeka';
+    src: url(./fonts/modeka-webfont.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Orson';
+    src: url(./fonts/sf_orson_casual_heavy-webfont.woff) format('woff');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Orson';
+    width: auto;
+    height: auto;    
+    background: #E0FBFC;
+    display: block;
+}
+
+.app-bar{
+    height: 130px;
+    clear: both;
+    background-color: #3D5A80;
+    display: block;
+    margin-top: 0;
+    box-sizing: border-box;
+    color: #F4F4F4;
+    font-family: 'Simplicity';
+    font-size: 60px;
+    padding: 16px;
+}
+
+.nav{
+    font-size: 20px;
+    height: 30px;
+    background-color: #EE6C4D;
+    clear: both;
+    display: block;
+    text-align: right;
+    position: sticky;
+    margin: auto;
+    float: right;
+}
+
+a {
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #E0FBFC;
+}
+
+a:hover, .offcanvas a:focus{
+    color: #3D5A80;
+}
+
+main{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    object-position: center;
+    clear: both;
+    margin-top: 50px;
+}
+
+.profile{
+    display: block;
+    margin: auto;
+    background: transparent;
+    color: #293241;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.picture{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.person{
+    background: #3D5A80;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 8px 0 #04151F;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    width: 400px;
+    text-align: center;
+}
+
+.person-info{
+    background-color: #293241;
+    color: #E0FBFC;
+    padding: 15px;
+    width: auto;
+}
+
+.head {
+    color: #EE6C4D;
+    font-size: 25px;
+    width: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.item {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+fieldset{
+    margin-top: 70px;
+    margin: 0 auto;
+    font-family: 'Orson';
+    background: transparent;
+    font-size: 14px;
+    padding: 10px;
+    box-shadow: 0 20px 20px 0 #212F45;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    position: sticky;
+}
+
+legend {
+    font-size: 28px;
+}
+
+.kontrol-form {
+    margin-top: 2%;
+    width: 95%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #3D5A80;
+    color: black;
+    font-family: 'Orson';
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input {
+    height: 5%;
+    color: #E0FBFC;
+    background: transparent;
+}
+
+input[type=submit]  {
+	box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #293241;
+    border-radius: 7px 7px 7px 7px;
+    color: #293241;
+    cursor: pointer;
+    display: block;
+    align-self: center;
+    font-family: 'Modeka';
+    font-weight: 400;
+    margin: 20px;
+    text-transform: uppercase;
+    width: 100px;
+    padding: 10px;
+}
+
+input[type=submit]:hover  {
+    background-color: #3D5A80;
+    color: #E0FBFC;
+	cursor: pointer;
+}
+
+.button{
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
